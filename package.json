@@ -10,7 +10,7 @@
     "dev": "nodemon server.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build"
+    "build": "CI= react-scripts build"
   },
   "keywords": [],
   "author": "",
