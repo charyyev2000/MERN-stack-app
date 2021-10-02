@@ -1,6 +1,6 @@
 {
   "homepage": "https://charyyev2000.github.io/MERN-stack-app",
-  "name": "crud_app",
+  "name": "node-app",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -10,7 +10,7 @@
     "dev": "nodemon server.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "CI= react-scripts build"
+    "build": "npm run build"
   },
   "keywords": [],
   "author": "",
